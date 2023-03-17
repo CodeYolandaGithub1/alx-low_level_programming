@@ -1,1 +1,2 @@
-low level C programming language
+task
+0x01. C - Variables, if, else, while
