@@ -3,9 +3,8 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed by a new line
- * for multiples of thre
- *e prints Fizz instead of the number
- * and for the multiples of five prints Buzz
+ * for multiples of three prints Fizz instead of the number
+ * for the multiples of five prints Buzz
  * Return: Always 0 (Success)
  */
 
