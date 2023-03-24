@@ -2,14 +2,19 @@
 /**
  * print_line - that draws a straight line in the terminal
  * @n: is the number of times the character _ should be printed
- * followed by ia new line
+ * followed by a new line
  * Return: Always 0.
  */
 
 void print_line(int n)
 {
-			int x;
-
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		int x;
 			if (n > 0)
 			{
 				for (x = 1; x <= n; x++)
@@ -18,4 +23,5 @@ void print_line(int n)
 				}
 			}
 			_putchar('\n');
+	}
 }
