@@ -3,21 +3,23 @@
  * print_rev - prints a string in reverse,
  * followed by a new line
  * @s: string to be printed
- * Return: 0.
+ * Return: String in reverse
  */
 void print_rev(char *s)
 {
-	int y, z;
-
-	y = 0;
+	int z = 0;
+	int y;
 
 	while (*s != '\0')
 	{
-		y++;
+		z++;
+		s++;
 	}
-	for (z = y; z > 0; z--)
+	 s--;
+	for (y = z; y > 0; y--)
 	{
 		_putchar(*s);
+		 s--;
 	}
 	_putchar('\n');
 }
