@@ -11,6 +11,6 @@ int main(void)
 	int n;
 
 	n = _strlen_recursion("Corbin Coleman");
-	print("%d\n", n);
+	printf("%d\n", n);
 	return (0);
 }
